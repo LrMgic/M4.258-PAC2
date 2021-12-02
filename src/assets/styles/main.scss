@@ -19,12 +19,14 @@
 
 // Interior 2
 @import "layouts/nosaltresS";
-@supports (display: grid) {
-  @media (min-width: 42em) and (min-height: 27em) {
-    @import "layouts/nosaltresM";
-  }
+@media (min-width: 42em) and (min-height: 27em) {
+  @import "layouts/nosaltresM";
 }
 
 // Interior 3
+@import "layouts/noticiesS";
+@media (min-width: 42em) and (min-height: 27em) {
+  @import "layouts/noticiesM";
+}
 
 // Interior 4
