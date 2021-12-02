@@ -16,13 +16,22 @@
     padding-left: 0.25em;
     margin-bottom: initial;
   }
+  .main--portada_Linea {
+    background-color: $color1;
+    grid-column: 4 / 6;
+    grid-row: 3 / 4;
+  }
   @media (min-width: 1200px) {
     .main--portada_Title {
       font-size: 86px;
       margin-top: 4vh;
     }
+    .main--portada_Img {
+      opacity: 1;
+    }
   }
   .main--portada_Lateral {
+    background-color: $color1;
     grid-row: 1 / -1;
     grid-column: 6 / 7;
     writing-mode: vertical-rl;
@@ -48,6 +57,7 @@
   }
   a {
     grid-column: 5 / 6;
+    grid-row: 3/4;
     justify-self: end;
     align-self: center;
     margin-bottom: initial;
@@ -90,11 +100,5 @@
 @media (min-width: 48em) and (min-height: 27em) {
   .main--portada hr {
     opacity: 1;
-  }
-}
-
-@media (min-width: 1200px) {
-  .main--portada img {
-    object-position: 0px -35px;
   }
 }
