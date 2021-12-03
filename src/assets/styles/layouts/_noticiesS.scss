@@ -23,7 +23,8 @@
       width: 100%;
     }
     p {
-      padding: 5px;
+      padding: unset;
+      margin: unset;
     }
   }
 
@@ -36,6 +37,24 @@
       border-bottom: $colorText2 0.05em solid;
       border-top: $colorText2 0.05em solid;
       box-shadow: 0px 2px 4px 1px $colorText2;
+    }
+  }
+  .main--noticies__section__article {
+    margin: 1vw;
+    border: $colorText2 0.1em solid;
+    border-radius: 5px;
+    background-color: $color4;
+    h2 {
+      border-bottom: $colorText2 0.05em solid;
+      border-top: $colorText2 0.05em solid;
+      box-shadow: 0px 2px 4px 1px $colorText2;
+    }
+    span {
+      font-weight: bold;
+    }
+    blockquote {
+      padding: 0 10px;
+      font-style: italic;
     }
   }
 }
