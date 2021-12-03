@@ -44,7 +44,6 @@
     "parcel": "^2.0.1",
     "postcss-preset-env": "^6.7.0",
     "rimraf": "^3.0.2",
-    "sass": "^1.44.0",
     "sharp": "^0.29.1",
     "stylelint": "^14.1.0",
     "stylelint-config-recommended-scss": "^5.0.2",

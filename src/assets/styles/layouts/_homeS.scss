@@ -5,11 +5,13 @@
   position: relative;
   padding: 1em;
 
-  h1 {
-    font-family: $font1;
-    color: $danger;
-    font-size: calc(3em + 7vw);
+  .main--portada_Title {
     margin-bottom: 0.25em;
+    h1 {
+      font-size: calc(3em + 7vw);
+      font-family: $font1;
+      color: $color1;
+    }
   }
 
   h2 {

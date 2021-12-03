@@ -1,5 +1,6 @@
 // COMUNES
 @import "variables";
+@import "_bootstrap.scss";
 @import "general";
 
 // Menu
@@ -30,3 +31,4 @@
 }
 
 // Interior 4
+@import "layouts/formulari";

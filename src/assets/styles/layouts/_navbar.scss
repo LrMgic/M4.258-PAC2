@@ -17,9 +17,11 @@
   a:hover {
     background: $color1;
     box-shadow: 5px 5px 15px 6px rgb(0 0 0 / 20%);
+    font-size: large;
   }
   .nav__item--selected {
     background: $color1;
+    font-size: large;
   }
 }
 

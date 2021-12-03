@@ -8,13 +8,21 @@
   grid-template-rows: minmax(min-content, 35vh) minmax(min-content, 40vh) 12vh;
 
   .main--portada_Title {
-    font-size: 7vw;
     margin-top: 2vh;
     grid-column: 4 / 6;
     grid-row: 1 / 2;
     z-index: -2;
     padding-left: 0.25em;
     margin-bottom: initial;
+    h1 {
+      font-size: 7vw;
+      text-shadow: 8px 9px 8px $colorText2;
+      margin: 0px;
+    }
+    p {
+      font-size: 3vw;
+      text-shadow: 5px 7px 2px rgb(39 144 185 / 71%);
+    }
   }
   .main--portada_Linea {
     background-color: $color1;
